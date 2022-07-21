@@ -33,9 +33,12 @@ body{
 main{
     max-width: 90%;
     margin: 3rem 0;
+    padding: 0;
 }
 .header{
     text-align: center;
+    line-height: 1.3rem;
+    padding-right: 0;
 }
 
 .header__title{
@@ -78,6 +81,7 @@ main{
     background-color: var(--very-dark-magenta);
     border-radius: 1rem;
     padding:2rem 3rem;
+    margin: 0;
     margin: 1rem 0;
 }
 
@@ -112,4 +116,44 @@ main{
     font-weight: 700;
     margin-top: 1rem;
     line-height: 1.3rem;
+}
+
+/* Media Queries */
+@media (min-width: 48rem){
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 3rem;
+    }
+
+    section{
+        flex: 1 1 50%;
+    }
+
+    .header{
+        text-align: justify;
+        padding-right: 20%;
+    }
+
+    .ratings__card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .ratings__card:nth-child(1){
+        margin: 1rem 0 1rem -4rem;
+        width: 100%;
+    }
+
+    .ratings__card:nth-child(2){
+        margin: 1rem 0 1rem -2rem;
+        width: 100%;
+    }
+    .ratings__card__description{
+        margin: 0;
+        padding-left: 1rem;
+    }
 }
