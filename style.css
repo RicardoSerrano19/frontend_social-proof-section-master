@@ -22,9 +22,28 @@ html {
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    max-width: 90%;
+    margin: 3rem 0;
+}
+.header{
+    text-align: center;
+}
+
+.header__title{
+    color: var(--very-dark-magenta);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header__description{
+    color: var(--dark-grayish-magenta);
+    font-weight: 400;
+    margin: 2rem 0;
 }
