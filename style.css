@@ -66,3 +66,48 @@ main{
     font-weight: 500;
     margin-top: 0.5rem;
 }
+
+/* Reviews */
+.reviews{
+
+}
+
+.reviews__card{
+    background-color: var(--very-dark-magenta);
+    border-radius: 1rem;
+    padding:2rem 3rem;
+    margin: 1rem 0;
+}
+
+.reviews__card__reviewer{
+    display: flex;
+    align-items: center;
+}
+
+.reviews__card__reviewer__avatar{
+    border-radius: 50%;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.reviews__card__reviewer__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__card__reviewer__name{
+    color: var(--white);
+    font-weight: 900;
+}
+
+.reviews__card__reviewer__range{
+    color: var(--soft-pink);
+    font-weight: 700;
+}
+
+.reviews__card__review{
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+}
