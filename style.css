@@ -156,4 +156,23 @@ main{
         margin: 0;
         padding-left: 1rem;
     }
+
+    .reviews{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .reviews__card{
+        flex: 0 0 30%;
+    }
+
+    .reviews__card:nth-child(2){
+        margin-top: 2rem;
+    }
+
+    .reviews__card:nth-child(3){
+        margin-top: 4rem;
+    }
+
 }
